@@ -1,6 +1,6 @@
 *<h1>Projeto IMC </h1>*
 
-<p> ↪️ Este desafio foi criado uma ferramenta para calcular o IMC do usuário, no qual, só aceita o preenchimento com números, como sugerido no placeholder.
+<p> ↪️ Neste desafio foi criado uma ferramenta para calcular o IMC do usuário, no qual, só aceita o preenchimento com números, como sugerido no placeholder.
 <img src="./assets/calculoimc.jpg">
 
 ↪️ Ao realizar o preenchimento correto com peso e altura, irá surgir a resposta do seu IMC. Podendo ser fechada a qualquer momento pressionando a tecla "ESC" ou fechando com o mouse no local indicado.
