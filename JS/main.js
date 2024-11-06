@@ -7,6 +7,8 @@ const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
 
+inputWeight.oninput = () => alertError.close()//oninput vai perceber se está sendo digitado algo no input
+inputHeight.oninput = () => alertError.close()//começando a digitar já some o nosso Alert Error.
 form.onsubmit = event => {
     event.preventDefault()
 
@@ -32,3 +34,4 @@ function displayResultMessage(result) {
     Modal.message.innerText = message
     Modal.open() //chamando a função do Modal.JS
     } 
+
